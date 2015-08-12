@@ -1,0 +1,20 @@
+
+alias pacman-upgrade="sudo pacman -Syu"
+alias pacman-download="pacman -Sw"
+alias pacman-install="sudo pacman -S"
+alias pacman-install-file="sudo pacman -U"
+alias pacman-remove="sudo pacman -R"
+alias pacman-purge="sudo pacman -Rns"
+alias pacman-repoinfo="pacman -Si"
+alias pacman-search="pacman -Ss"
+alias pacman-dbinfo="pacman -Qi"
+alias pacman-dbsearch="pacman -Qs"
+alias pacman-list-orphaned="pacman -Qdt"
+alias pacman-clean-cache="sudo pacman -Scc"
+alias paclf="pacman -Ql"
+alias pacman-provides-="pacman -Qo"
+alias pacman-force-installed="pacman -D --asexp"
+alias pacman-force-uninstalled="pacman -D --asdep"
+alias pacman-unlockdb="sudo rm /var/lib/pacman/db.lck"
+
+
